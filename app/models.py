@@ -9,4 +9,4 @@ class Player(Base):
     position = Column(String)
     number = Column(Integer)
     nationality = Column(String)
-    
+    photo_url = Column(String, nullable=True)  # Optional field for player photo URL
